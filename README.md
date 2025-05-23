@@ -15,6 +15,10 @@ This is a simple boilerplate for a WebView wrapper using React Native and Expo. 
    ```bash
    https://github.com/10xBlitz/boilerplate-mobile.git
    ```
+2. Open boilerplate-mobile
+   ```bash
+   cd boilerplate-mobile
+   ```
 
 2. Install dependencies
    ```bash
@@ -23,29 +27,19 @@ This is a simple boilerplate for a WebView wrapper using React Native and Expo. 
 
 3. Start the app
    ```bash
-   npx expo start
+   npm run android
    ```
 
 ## 📱 Building an APK
 
 To build an APK using React Native CLI instead of Expo, follow these steps:
 
-1. Eject from Expo (if not already done)
-   ```bash
-   npx expo eject
-   ```
-
-2. Install the React Native CLI globally
-   ```bash
-   npm install -g react-native-cli
-   ```
-
-3. Navigate to the `android` directory
+1. Navigate to the `android` directory
    ```bash
    cd android
    ```
 
-4. Build the APK
+2. Build the APK
    ```bash
    ./gradlew assembleRelease
    ```
